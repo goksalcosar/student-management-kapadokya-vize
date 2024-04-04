@@ -242,10 +242,6 @@ public partial class UserManagemenetContext : DbContext
             entity.Property(e => e.Name)
                 .HasMaxLength(255)
                 .HasColumnName("name");
-            entity.Property(e => e.PassPoint).HasColumnName("pass_point");
-            entity.Property(e => e.Type)
-                .HasColumnType("int(11)")
-                .HasColumnName("type");
             entity.Property(e => e.UpdatedAt)
                 .HasColumnType("datetime")
                 .HasColumnName("updated_at");
@@ -287,24 +283,14 @@ public partial class UserManagemenetContext : DbContext
 
             entity.HasIndex(e => e.LessonId, "23423423");
 
-            entity.HasIndex(e => e.UserId, "234234242342");
-
             entity.Property(e => e.LessonId)
                 .HasColumnType("int(11)")
                 .HasColumnName("lesson_id");
-            entity.Property(e => e.UserId)
-                .HasColumnType("int(11)")
-                .HasColumnName("user_id");
 
             entity.HasOne(d => d.Lesson).WithMany()
                 .HasForeignKey(d => d.LessonId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("23423423");
-
-            entity.HasOne(d => d.User).WithMany()
-                .HasForeignKey(d => d.UserId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("234234242342");
         });
 
         modelBuilder.Entity<Note>(entity =>

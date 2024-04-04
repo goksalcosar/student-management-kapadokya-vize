@@ -18,8 +18,6 @@ public partial class StudentManagementContext : DbContext
 
     public virtual DbSet<Class> Classes { get; set; }
 
-    public virtual DbSet<ClassUser> ClassUsers { get; set; }
-
     public virtual DbSet<Club> Clubs { get; set; }
 
     public virtual DbSet<ClubsStudent> ClubsStudents { get; set; }
@@ -75,34 +73,6 @@ public partial class StudentManagementContext : DbContext
             entity.Property(e => e.UpdatedAt)
                 .HasColumnType("datetime")
                 .HasColumnName("updated_at");
-        });
-
-        modelBuilder.Entity<ClassUser>(entity =>
-        {
-            entity
-                .HasNoKey()
-                .ToTable("class_user");
-
-            entity.HasIndex(e => e.ClassId, "1231231231");
-
-            entity.HasIndex(e => e.UserId, "234234234");
-
-            entity.Property(e => e.ClassId)
-                .HasColumnType("int(11)")
-                .HasColumnName("class_id");
-            entity.Property(e => e.UserId)
-                .HasColumnType("int(11)")
-                .HasColumnName("user_id");
-
-            entity.HasOne(d => d.Class).WithMany()
-                .HasForeignKey(d => d.ClassId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("1231231231");
-
-            entity.HasOne(d => d.User).WithMany()
-                .HasForeignKey(d => d.UserId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("234234234");
         });
 
         modelBuilder.Entity<Club>(entity =>
@@ -242,9 +212,8 @@ public partial class StudentManagementContext : DbContext
             entity.Property(e => e.Name)
                 .HasMaxLength(255)
                 .HasColumnName("name");
-            entity.Property(e => e.PassPoint).HasColumnName("pass_point");
             entity.Property(e => e.Type)
-                .HasColumnType("int(11)")
+                .HasMaxLength(55)
                 .HasColumnName("type");
             entity.Property(e => e.UpdatedAt)
                 .HasColumnType("datetime")
@@ -281,30 +250,33 @@ public partial class StudentManagementContext : DbContext
 
         modelBuilder.Entity<LessonTeacher>(entity =>
         {
-            entity
-                .HasNoKey()
-                .ToTable("lesson_teacher");
+            entity.HasKey(e => e.Id).HasName("PRIMARY");
+
+            entity.ToTable("lesson_teacher");
 
             entity.HasIndex(e => e.LessonId, "23423423");
 
-            entity.HasIndex(e => e.UserId, "234234242342");
+            entity.HasIndex(e => e.TeacherId, "teacher_id");
 
+            entity.Property(e => e.Id)
+                .HasColumnType("int(11)")
+                .HasColumnName("id");
             entity.Property(e => e.LessonId)
                 .HasColumnType("int(11)")
                 .HasColumnName("lesson_id");
-            entity.Property(e => e.UserId)
+            entity.Property(e => e.TeacherId)
                 .HasColumnType("int(11)")
-                .HasColumnName("user_id");
+                .HasColumnName("teacher_id");
 
-            entity.HasOne(d => d.Lesson).WithMany()
+            entity.HasOne(d => d.Lesson).WithMany(p => p.LessonTeachers)
                 .HasForeignKey(d => d.LessonId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("23423423");
 
-            entity.HasOne(d => d.User).WithMany()
-                .HasForeignKey(d => d.UserId)
+            entity.HasOne(d => d.Teacher).WithMany(p => p.LessonTeachers)
+                .HasForeignKey(d => d.TeacherId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("234234242342");
+                .HasConstraintName("lesson_teacher_ibfk_1");
         });
 
         modelBuilder.Entity<Note>(entity =>
@@ -436,25 +408,40 @@ public partial class StudentManagementContext : DbContext
             entity.Property(e => e.Id)
                 .HasColumnType("int(11)")
                 .HasColumnName("id");
+            entity.Property(e => e.Address)
+                .HasMaxLength(255)
+                .HasColumnName("address");
             entity.Property(e => e.BirthDate)
                 .HasColumnType("datetime")
                 .HasColumnName("birth_date");
+            entity.Property(e => e.Class)
+                .HasMaxLength(55)
+                .HasColumnName("class");
             entity.Property(e => e.CreatedAt)
                 .HasColumnType("datetime")
                 .HasColumnName("created_at");
+            entity.Property(e => e.Email)
+                .HasMaxLength(55)
+                .HasColumnName("email");
+            entity.Property(e => e.Expertise)
+                .HasMaxLength(55)
+                .HasColumnName("expertise");
             entity.Property(e => e.Gender)
                 .HasMaxLength(55)
                 .HasColumnName("gender");
             entity.Property(e => e.IsActive).HasColumnName("is_active");
+            entity.Property(e => e.Lesson)
+                .HasMaxLength(55)
+                .HasColumnName("lesson");
             entity.Property(e => e.Name)
                 .HasMaxLength(55)
                 .HasColumnName("name");
             entity.Property(e => e.Password)
                 .HasMaxLength(300)
                 .HasColumnName("password");
-            entity.Property(e => e.ProfileImage)
-                .HasMaxLength(255)
-                .HasColumnName("profile_image");
+            entity.Property(e => e.PhoneNumber)
+                .HasMaxLength(55)
+                .HasColumnName("phone_number");
             entity.Property(e => e.Role)
                 .HasMaxLength(55)
                 .HasColumnName("role");

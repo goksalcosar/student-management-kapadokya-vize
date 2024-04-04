@@ -13,13 +13,25 @@ public partial class User
 
     public string Password { get; set; } = null!;
 
-    public DateTime BirthDate { get; set; }
+    public string? PhoneNumber { get; set; }
+
+    public string? Email { get; set; }
+
+    public string? Address { get; set; }
 
     public string? Gender { get; set; }
 
     public string TcNo { get; set; } = null!;
 
+    public string? Class { get; set; }
+
+    public string? Lesson { get; set; }
+
     public string Role { get; set; } = null!;
+
+    public DateTime BirthDate { get; set; }
+
+    public string? Expertise { get; set; }
 
     public bool IsActive { get; set; }
 
@@ -27,11 +39,11 @@ public partial class User
 
     public DateTime UpdatedAt { get; set; }
 
-    public string? ProfileImage { get; set; }
-
     public virtual ICollection<Discontinuity> Discontinuities { get; set; } = new List<Discontinuity>();
 
     public virtual ICollection<ExamResult> ExamResults { get; set; } = new List<ExamResult>();
+
+    public virtual ICollection<LessonTeacher> LessonTeachers { get; set; } = new List<LessonTeacher>();
 
     public virtual ICollection<Note> Notes { get; set; } = new List<Note>();
 }
