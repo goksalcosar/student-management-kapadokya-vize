@@ -90,5 +90,10 @@ namespace Öğrenci_İşleri_Otomasyonu.DataTransferObject.UserDataModel
         {
             return studentManagementContext.Users.FirstOrDefault(f => f.Name == name && f.Role == "Öğrenci");
         }
+
+        public static User GetFindByNameSurname(string citionNumber, string password ,StudentManagementContext studentManagementContext)
+        {
+            return studentManagementContext.Users.FirstOrDefault(f => f.TcNo == citionNumber && f.Password == password);
+        }
     }
 }
