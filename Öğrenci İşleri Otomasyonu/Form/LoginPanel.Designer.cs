@@ -117,7 +117,7 @@
             userCitionTxt.Hint = "Tc Kimlik No";
             userCitionTxt.LeadingIcon = null;
             userCitionTxt.Location = new Point(17, 43);
-            userCitionTxt.MaxLength = 50;
+            userCitionTxt.MaxLength = 11;
             userCitionTxt.MouseState = MaterialSkin.MouseState.OUT;
             userCitionTxt.Multiline = false;
             userCitionTxt.Name = "userCitionTxt";
@@ -234,6 +234,7 @@
             Name = "LoginPanel";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Öğrenci İşleri Giriş Alanı";
+            FormClosed += LoginPanel_FormClosed;
             materialCard7.ResumeLayout(false);
             materialCard1.ResumeLayout(false);
             materialCard2.ResumeLayout(false);

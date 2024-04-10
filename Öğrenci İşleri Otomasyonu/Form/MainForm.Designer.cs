@@ -35,10 +35,20 @@
             DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle8 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle9 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle10 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle11 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle12 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle13 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle14 = new DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             tabPage2 = new TabPage();
             panel2 = new Panel();
             panel = new Panel();
             materialCard11 = new MaterialSkin.Controls.MaterialCard();
+            materialSwitch2 = new MaterialSkin.Controls.MaterialSwitch();
             materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
             userSurnameStatusTxt = new MaterialSkin.Controls.MaterialTextBox();
             userCitionStatusTxt = new MaterialSkin.Controls.MaterialTextBox();
@@ -108,6 +118,13 @@
             materialButton3 = new MaterialSkin.Controls.MaterialButton();
             tabPage4 = new TabPage();
             panel3 = new Panel();
+            materialCard24 = new MaterialSkin.Controls.MaterialCard();
+            materialLabel9 = new MaterialSkin.Controls.MaterialLabel();
+            materialCard25 = new MaterialSkin.Controls.MaterialCard();
+            materialTextBox16 = new MaterialSkin.Controls.MaterialTextBox();
+            materialTextBox15 = new MaterialSkin.Controls.MaterialTextBox();
+            materialButton15 = new MaterialSkin.Controls.MaterialButton();
+            materialButton10 = new MaterialSkin.Controls.MaterialButton();
             materialButton12 = new MaterialSkin.Controls.MaterialButton();
             materialCard20 = new MaterialSkin.Controls.MaterialCard();
             materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
@@ -124,9 +141,58 @@
             materialComboBox1 = new MaterialSkin.Controls.MaterialComboBox();
             materialTextBox14 = new MaterialSkin.Controls.MaterialTextBox();
             dataGridView2 = new DataGridView();
+            tabPage1 = new TabPage();
+            panel4 = new Panel();
+            materialButton18 = new MaterialSkin.Controls.MaterialButton();
+            materialButton16 = new MaterialSkin.Controls.MaterialButton();
+            materialCard21 = new MaterialSkin.Controls.MaterialCard();
+            materialLabel10 = new MaterialSkin.Controls.MaterialLabel();
+            materialButton17 = new MaterialSkin.Controls.MaterialButton();
+            materialTextBox13 = new MaterialSkin.Controls.MaterialTextBox();
+            materialButton11 = new MaterialSkin.Controls.MaterialButton();
+            materialButton13 = new MaterialSkin.Controls.MaterialButton();
+            materialCard23 = new MaterialSkin.Controls.MaterialCard();
+            materialComboBox2 = new MaterialSkin.Controls.MaterialComboBox();
+            materialMaskedTextBox4 = new MaterialSkin.Controls.MaterialMaskedTextBox();
+            materialCard22 = new MaterialSkin.Controls.MaterialCard();
+            materialComboBox7 = new MaterialSkin.Controls.MaterialComboBox();
+            materialComboBox6 = new MaterialSkin.Controls.MaterialComboBox();
+            dataGridView3 = new DataGridView();
+            tabPage6 = new TabPage();
+            materialCard27 = new MaterialSkin.Controls.MaterialCard();
+            materialCard30 = new MaterialSkin.Controls.MaterialCard();
+            materialTextBox19 = new MaterialSkin.Controls.MaterialTextBox();
+            materialTextBox18 = new MaterialSkin.Controls.MaterialTextBox();
+            materialLabel12 = new MaterialSkin.Controls.MaterialLabel();
+            materialCard29 = new MaterialSkin.Controls.MaterialCard();
+            materialComboBox5 = new MaterialSkin.Controls.MaterialComboBox();
+            materialButton25 = new MaterialSkin.Controls.MaterialButton();
+            materialButton22 = new MaterialSkin.Controls.MaterialButton();
+            materialCard26 = new MaterialSkin.Controls.MaterialCard();
+            materialButton19 = new MaterialSkin.Controls.MaterialButton();
+            materialLabel11 = new MaterialSkin.Controls.MaterialLabel();
+            materialTextBox17 = new MaterialSkin.Controls.MaterialTextBox();
+            materialButton20 = new MaterialSkin.Controls.MaterialButton();
+            materialButton21 = new MaterialSkin.Controls.MaterialButton();
+            materialCard28 = new MaterialSkin.Controls.MaterialCard();
+            materialSwitch1 = new MaterialSkin.Controls.MaterialSwitch();
+            materialComboBox8 = new MaterialSkin.Controls.MaterialComboBox();
+            dataGridView5 = new DataGridView();
+            tabPage5 = new TabPage();
+            materialButton14 = new MaterialSkin.Controls.MaterialButton();
+            dataGridView4 = new DataGridView();
+            tabPage7 = new TabPage();
+            materialCard32 = new MaterialSkin.Controls.MaterialCard();
+            materialLabel13 = new MaterialSkin.Controls.MaterialLabel();
+            materialCard31 = new MaterialSkin.Controls.MaterialCard();
+            materialTextBox20 = new MaterialSkin.Controls.MaterialTextBox();
+            materialTextBox21 = new MaterialSkin.Controls.MaterialTextBox();
+            materialButton23 = new MaterialSkin.Controls.MaterialButton();
+            dataGridView6 = new DataGridView();
             ımageList1 = new ImageList(components);
             mySqlDataAdapter1 = new MySqlConnector.MySqlDataAdapter();
             saveFileDialog1 = new SaveFileDialog();
+            materialSwitch3 = new MaterialSkin.Controls.MaterialSwitch();
             tabPage2.SuspendLayout();
             panel2.SuspendLayout();
             panel.SuspendLayout();
@@ -153,16 +219,38 @@
             materialCard15.SuspendLayout();
             tabPage4.SuspendLayout();
             panel3.SuspendLayout();
+            materialCard24.SuspendLayout();
+            materialCard25.SuspendLayout();
             materialCard20.SuspendLayout();
             materialCard19.SuspendLayout();
             materialCard18.SuspendLayout();
             materialCard17.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
+            tabPage1.SuspendLayout();
+            panel4.SuspendLayout();
+            materialCard21.SuspendLayout();
+            materialCard23.SuspendLayout();
+            materialCard22.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView3).BeginInit();
+            tabPage6.SuspendLayout();
+            materialCard27.SuspendLayout();
+            materialCard30.SuspendLayout();
+            materialCard29.SuspendLayout();
+            materialCard26.SuspendLayout();
+            materialCard28.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView5).BeginInit();
+            tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView4).BeginInit();
+            tabPage7.SuspendLayout();
+            materialCard32.SuspendLayout();
+            materialCard31.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView6).BeginInit();
             SuspendLayout();
             // 
             // tabPage2
             // 
             tabPage2.Controls.Add(panel2);
+            tabPage2.ImageKey = "student.png";
             tabPage2.Location = new Point(4, 24);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
@@ -200,6 +288,7 @@
             // materialCard11
             // 
             materialCard11.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard11.Controls.Add(materialSwitch2);
             materialCard11.Controls.Add(materialLabel6);
             materialCard11.Controls.Add(userSurnameStatusTxt);
             materialCard11.Controls.Add(userCitionStatusTxt);
@@ -213,6 +302,21 @@
             materialCard11.Padding = new Padding(14);
             materialCard11.Size = new Size(236, 373);
             materialCard11.TabIndex = 21;
+            // 
+            // materialSwitch2
+            // 
+            materialSwitch2.AutoSize = true;
+            materialSwitch2.Depth = 0;
+            materialSwitch2.Location = new Point(27, 254);
+            materialSwitch2.Margin = new Padding(0);
+            materialSwitch2.MouseLocation = new Point(-1, -1);
+            materialSwitch2.MouseState = MaterialSkin.MouseState.HOVER;
+            materialSwitch2.Name = "materialSwitch2";
+            materialSwitch2.Ripple = true;
+            materialSwitch2.Size = new Size(91, 37);
+            materialSwitch2.TabIndex = 20;
+            materialSwitch2.Text = "Aktif";
+            materialSwitch2.UseVisualStyleBackColor = true;
             // 
             // materialLabel6
             // 
@@ -270,7 +374,7 @@
             userStatusButton.Depth = 0;
             userStatusButton.HighEmphasis = true;
             userStatusButton.Icon = null;
-            userStatusButton.Location = new Point(75, 269);
+            userStatusButton.Location = new Point(78, 308);
             userStatusButton.Margin = new Padding(4, 6, 4, 6);
             userStatusButton.MouseState = MaterialSkin.MouseState.HOVER;
             userStatusButton.Name = "userStatusButton";
@@ -567,7 +671,7 @@
             userMaskedBirthDay.Hint = "Doğum Tarihi";
             userMaskedBirthDay.InsertKeyMode = InsertKeyMode.Default;
             userMaskedBirthDay.LeadingIcon = null;
-            userMaskedBirthDay.Location = new Point(17, 73);
+            userMaskedBirthDay.Location = new Point(17, 16);
             userMaskedBirthDay.Mask = "00/00/0000";
             userMaskedBirthDay.MaxLength = 32767;
             userMaskedBirthDay.MouseState = MaterialSkin.MouseState.OUT;
@@ -603,7 +707,7 @@
             userCitionTxt.Font = new Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
             userCitionTxt.Hint = "TC Kimlik No";
             userCitionTxt.LeadingIcon = null;
-            userCitionTxt.Location = new Point(17, 17);
+            userCitionTxt.Location = new Point(17, 74);
             userCitionTxt.MaxLength = 11;
             userCitionTxt.MouseState = MaterialSkin.MouseState.OUT;
             userCitionTxt.Multiline = false;
@@ -827,8 +931,13 @@
             materialTabControl1.Controls.Add(tabPage2);
             materialTabControl1.Controls.Add(tabPage3);
             materialTabControl1.Controls.Add(tabPage4);
+            materialTabControl1.Controls.Add(tabPage1);
+            materialTabControl1.Controls.Add(tabPage6);
+            materialTabControl1.Controls.Add(tabPage5);
+            materialTabControl1.Controls.Add(tabPage7);
             materialTabControl1.Depth = 0;
             materialTabControl1.Dock = DockStyle.Fill;
+            materialTabControl1.ImageList = ımageList1;
             materialTabControl1.Location = new Point(3, 64);
             materialTabControl1.MouseState = MaterialSkin.MouseState.HOVER;
             materialTabControl1.Multiline = true;
@@ -840,6 +949,7 @@
             // tabPage3
             // 
             tabPage3.Controls.Add(panel1);
+            tabPage3.ImageKey = "teacher.png";
             tabPage3.Location = new Point(4, 24);
             tabPage3.Name = "tabPage3";
             tabPage3.Padding = new Padding(3);
@@ -862,11 +972,11 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1443, 595);
             panel1.TabIndex = 0;
-            panel1.Paint += panel1_Paint;
             // 
             // materialCard1
             // 
             materialCard1.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard1.Controls.Add(materialSwitch3);
             materialCard1.Controls.Add(materialLabel1);
             materialCard1.Controls.Add(materialTextBox3);
             materialCard1.Controls.Add(materialTextBox4);
@@ -937,7 +1047,7 @@
             materialButton1.Depth = 0;
             materialButton1.HighEmphasis = true;
             materialButton1.Icon = null;
-            materialButton1.Location = new Point(75, 269);
+            materialButton1.Location = new Point(75, 317);
             materialButton1.Margin = new Padding(4, 6, 4, 6);
             materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
             materialButton1.Name = "materialButton1";
@@ -1312,7 +1422,6 @@
             materialTextBox8.TabIndex = 3;
             materialTextBox8.Text = "";
             materialTextBox8.TrailingIcon = null;
-            materialTextBox8.TextChanged += materialTextBox8_TextChanged;
             // 
             // materialCard14
             // 
@@ -1512,6 +1621,7 @@
             // tabPage4
             // 
             tabPage4.Controls.Add(panel3);
+            tabPage4.ImageKey = "lesson.png";
             tabPage4.Location = new Point(4, 24);
             tabPage4.Name = "tabPage4";
             tabPage4.Size = new Size(1449, 601);
@@ -1521,6 +1631,8 @@
             // 
             // panel3
             // 
+            panel3.Controls.Add(materialCard24);
+            panel3.Controls.Add(materialButton10);
             panel3.Controls.Add(materialButton12);
             panel3.Controls.Add(materialCard20);
             panel3.Controls.Add(materialCard18);
@@ -1530,7 +1642,129 @@
             panel3.Name = "panel3";
             panel3.Size = new Size(1449, 601);
             panel3.TabIndex = 0;
-            panel3.Paint += panel3_Paint;
+            // 
+            // materialCard24
+            // 
+            materialCard24.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard24.Controls.Add(materialLabel9);
+            materialCard24.Controls.Add(materialCard25);
+            materialCard24.Controls.Add(materialButton15);
+            materialCard24.Depth = 0;
+            materialCard24.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialCard24.Location = new Point(944, 323);
+            materialCard24.Margin = new Padding(14);
+            materialCard24.MouseState = MaterialSkin.MouseState.HOVER;
+            materialCard24.Name = "materialCard24";
+            materialCard24.Padding = new Padding(14);
+            materialCard24.Size = new Size(376, 255);
+            materialCard24.TabIndex = 23;
+            // 
+            // materialLabel9
+            // 
+            materialLabel9.AutoSize = true;
+            materialLabel9.Depth = 0;
+            materialLabel9.Font = new Font("Roboto", 14F, FontStyle.Regular, GraphicsUnit.Pixel);
+            materialLabel9.Location = new Point(17, 14);
+            materialLabel9.MouseState = MaterialSkin.MouseState.HOVER;
+            materialLabel9.Name = "materialLabel9";
+            materialLabel9.Size = new Size(101, 19);
+            materialLabel9.TabIndex = 13;
+            materialLabel9.Text = "Ders Kaldırma";
+            materialLabel9.Click += materialLabel9_Click;
+            // 
+            // materialCard25
+            // 
+            materialCard25.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard25.Controls.Add(materialTextBox16);
+            materialCard25.Controls.Add(materialTextBox15);
+            materialCard25.Depth = 0;
+            materialCard25.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialCard25.Location = new Point(17, 47);
+            materialCard25.Margin = new Padding(14);
+            materialCard25.MouseState = MaterialSkin.MouseState.HOVER;
+            materialCard25.Name = "materialCard25";
+            materialCard25.Padding = new Padding(14);
+            materialCard25.Size = new Size(329, 139);
+            materialCard25.TabIndex = 18;
+            // 
+            // materialTextBox16
+            // 
+            materialTextBox16.AnimateReadOnly = false;
+            materialTextBox16.BorderStyle = BorderStyle.None;
+            materialTextBox16.Depth = 0;
+            materialTextBox16.Enabled = false;
+            materialTextBox16.Font = new Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
+            materialTextBox16.Hint = "Ders Id";
+            materialTextBox16.LeadingIcon = null;
+            materialTextBox16.Location = new Point(17, 17);
+            materialTextBox16.MaxLength = 50;
+            materialTextBox16.MouseState = MaterialSkin.MouseState.OUT;
+            materialTextBox16.Multiline = false;
+            materialTextBox16.Name = "materialTextBox16";
+            materialTextBox16.Size = new Size(295, 50);
+            materialTextBox16.TabIndex = 6;
+            materialTextBox16.Text = "";
+            materialTextBox16.TrailingIcon = null;
+            // 
+            // materialTextBox15
+            // 
+            materialTextBox15.AnimateReadOnly = false;
+            materialTextBox15.BorderStyle = BorderStyle.None;
+            materialTextBox15.Depth = 0;
+            materialTextBox15.Enabled = false;
+            materialTextBox15.Font = new Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
+            materialTextBox15.Hint = "Ders Adı";
+            materialTextBox15.LeadingIcon = null;
+            materialTextBox15.Location = new Point(17, 76);
+            materialTextBox15.MaxLength = 50;
+            materialTextBox15.MouseState = MaterialSkin.MouseState.OUT;
+            materialTextBox15.Multiline = false;
+            materialTextBox15.Name = "materialTextBox15";
+            materialTextBox15.Size = new Size(295, 50);
+            materialTextBox15.TabIndex = 5;
+            materialTextBox15.Text = "";
+            materialTextBox15.TrailingIcon = null;
+            // 
+            // materialButton15
+            // 
+            materialButton15.AutoSize = false;
+            materialButton15.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            materialButton15.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            materialButton15.Depth = 0;
+            materialButton15.HighEmphasis = true;
+            materialButton15.Icon = null;
+            materialButton15.Location = new Point(87, 199);
+            materialButton15.Margin = new Padding(4, 6, 4, 6);
+            materialButton15.MouseState = MaterialSkin.MouseState.HOVER;
+            materialButton15.Name = "materialButton15";
+            materialButton15.NoAccentTextColor = Color.Empty;
+            materialButton15.Size = new Size(192, 36);
+            materialButton15.TabIndex = 22;
+            materialButton15.Text = "Kaldır";
+            materialButton15.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            materialButton15.UseAccentColor = false;
+            materialButton15.UseVisualStyleBackColor = true;
+            materialButton15.Click += materialButton15_Click;
+            // 
+            // materialButton10
+            // 
+            materialButton10.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            materialButton10.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            materialButton10.Depth = 0;
+            materialButton10.HighEmphasis = true;
+            materialButton10.Icon = null;
+            materialButton10.Location = new Point(161, 250);
+            materialButton10.Margin = new Padding(4, 6, 4, 6);
+            materialButton10.MouseState = MaterialSkin.MouseState.HOVER;
+            materialButton10.Name = "materialButton10";
+            materialButton10.NoAccentTextColor = Color.Empty;
+            materialButton10.Size = new Size(81, 36);
+            materialButton10.TabIndex = 24;
+            materialButton10.Text = "Temizle";
+            materialButton10.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            materialButton10.UseAccentColor = false;
+            materialButton10.UseVisualStyleBackColor = true;
+            materialButton10.Click += materialButton10_Click;
             // 
             // materialButton12
             // 
@@ -1539,7 +1773,7 @@
             materialButton12.Depth = 0;
             materialButton12.HighEmphasis = true;
             materialButton12.Icon = null;
-            materialButton12.Location = new Point(17, 171);
+            materialButton12.Location = new Point(21, 250);
             materialButton12.Margin = new Padding(4, 6, 4, 6);
             materialButton12.MouseState = MaterialSkin.MouseState.HOVER;
             materialButton12.Name = "materialButton12";
@@ -1561,14 +1795,13 @@
             materialCard20.Controls.Add(materialButton8);
             materialCard20.Depth = 0;
             materialCard20.ForeColor = Color.FromArgb(222, 0, 0, 0);
-            materialCard20.Location = new Point(776, 233);
+            materialCard20.Location = new Point(530, 323);
             materialCard20.Margin = new Padding(14);
             materialCard20.MouseState = MaterialSkin.MouseState.HOVER;
             materialCard20.Name = "materialCard20";
             materialCard20.Padding = new Padding(14);
-            materialCard20.Size = new Size(376, 257);
+            materialCard20.Size = new Size(376, 255);
             materialCard20.TabIndex = 19;
-            materialCard20.Paint += materialCard20_Paint;
             // 
             // materialLabel8
             // 
@@ -1619,6 +1852,7 @@
             materialComboBox4.Size = new Size(297, 49);
             materialComboBox4.StartIndex = 0;
             materialComboBox4.TabIndex = 3;
+            materialComboBox4.Click += materialComboBox4_Click;
             // 
             // materialComboBox3
             // 
@@ -1642,6 +1876,7 @@
             materialComboBox3.Size = new Size(297, 49);
             materialComboBox3.StartIndex = 0;
             materialComboBox3.TabIndex = 3;
+            materialComboBox3.Click += materialComboBox3_Click;
             // 
             // materialButton9
             // 
@@ -1681,6 +1916,7 @@
             materialButton8.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             materialButton8.UseAccentColor = false;
             materialButton8.UseVisualStyleBackColor = true;
+            materialButton8.Click += materialButton8_Click;
             // 
             // materialCard18
             // 
@@ -1691,12 +1927,12 @@
             materialCard18.Controls.Add(materialCard17);
             materialCard18.Depth = 0;
             materialCard18.ForeColor = Color.FromArgb(222, 0, 0, 0);
-            materialCard18.Location = new Point(338, 233);
+            materialCard18.Location = new Point(138, 323);
             materialCard18.Margin = new Padding(14);
             materialCard18.MouseState = MaterialSkin.MouseState.HOVER;
             materialCard18.Name = "materialCard18";
             materialCard18.Padding = new Padding(14);
-            materialCard18.Size = new Size(364, 257);
+            materialCard18.Size = new Size(364, 255);
             materialCard18.TabIndex = 18;
             // 
             // materialButton7
@@ -1717,6 +1953,7 @@
             materialButton7.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             materialButton7.UseAccentColor = false;
             materialButton7.UseVisualStyleBackColor = true;
+            materialButton7.Click += materialButton7_Click;
             // 
             // materialButton6
             // 
@@ -1749,7 +1986,6 @@
             materialLabel7.Size = new Size(151, 19);
             materialLabel7.TabIndex = 13;
             materialLabel7.Text = "Ders Oluşturma Alanı";
-            materialLabel7.Click += materialLabel7_Click;
             // 
             // materialCard17
             // 
@@ -1837,14 +2073,959 @@
             dataGridView2.GridColor = SystemColors.GrayText;
             dataGridView2.Location = new Point(0, 0);
             dataGridView2.Name = "dataGridView2";
-            dataGridView2.Size = new Size(1449, 162);
+            dataGridView2.Size = new Size(1449, 241);
             dataGridView2.TabIndex = 16;
+            dataGridView2.CellDoubleClick += dataGridView2_CellDoubleClick_1;
+            dataGridView2.DoubleClick += dataGridView2_DoubleClick;
+            // 
+            // tabPage1
+            // 
+            tabPage1.Controls.Add(panel4);
+            tabPage1.ImageKey = "business-credit-score.png";
+            tabPage1.Location = new Point(4, 24);
+            tabPage1.Name = "tabPage1";
+            tabPage1.Padding = new Padding(3);
+            tabPage1.Size = new Size(1449, 601);
+            tabPage1.TabIndex = 4;
+            tabPage1.Text = "Not Yönetim";
+            tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // panel4
+            // 
+            panel4.Controls.Add(materialButton18);
+            panel4.Controls.Add(materialButton16);
+            panel4.Controls.Add(materialCard21);
+            panel4.Controls.Add(dataGridView3);
+            panel4.Dock = DockStyle.Fill;
+            panel4.Location = new Point(3, 3);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(1443, 595);
+            panel4.TabIndex = 0;
+            // 
+            // materialButton18
+            // 
+            materialButton18.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            materialButton18.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            materialButton18.Depth = 0;
+            materialButton18.HighEmphasis = true;
+            materialButton18.Icon = null;
+            materialButton18.Location = new Point(150, 280);
+            materialButton18.Margin = new Padding(4, 6, 4, 6);
+            materialButton18.MouseState = MaterialSkin.MouseState.HOVER;
+            materialButton18.Name = "materialButton18";
+            materialButton18.NoAccentTextColor = Color.Empty;
+            materialButton18.Size = new Size(81, 36);
+            materialButton18.TabIndex = 21;
+            materialButton18.Text = "Temizle";
+            materialButton18.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            materialButton18.UseAccentColor = false;
+            materialButton18.UseVisualStyleBackColor = true;
+            materialButton18.Click += materialButton18_Click;
+            // 
+            // materialButton16
+            // 
+            materialButton16.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            materialButton16.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            materialButton16.Depth = 0;
+            materialButton16.HighEmphasis = true;
+            materialButton16.Icon = null;
+            materialButton16.Location = new Point(16, 280);
+            materialButton16.Margin = new Padding(4, 6, 4, 6);
+            materialButton16.MouseState = MaterialSkin.MouseState.HOVER;
+            materialButton16.Name = "materialButton16";
+            materialButton16.NoAccentTextColor = Color.Empty;
+            materialButton16.Size = new Size(126, 36);
+            materialButton16.TabIndex = 20;
+            materialButton16.Text = "Notları Getir";
+            materialButton16.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            materialButton16.UseAccentColor = false;
+            materialButton16.UseVisualStyleBackColor = true;
+            materialButton16.Click += materialButton16_Click;
+            // 
+            // materialCard21
+            // 
+            materialCard21.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard21.Controls.Add(materialLabel10);
+            materialCard21.Controls.Add(materialButton17);
+            materialCard21.Controls.Add(materialTextBox13);
+            materialCard21.Controls.Add(materialButton11);
+            materialCard21.Controls.Add(materialButton13);
+            materialCard21.Controls.Add(materialCard23);
+            materialCard21.Controls.Add(materialCard22);
+            materialCard21.Depth = 0;
+            materialCard21.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialCard21.Location = new Point(364, 311);
+            materialCard21.Margin = new Padding(14);
+            materialCard21.MouseState = MaterialSkin.MouseState.HOVER;
+            materialCard21.Name = "materialCard21";
+            materialCard21.Padding = new Padding(14);
+            materialCard21.Size = new Size(695, 270);
+            materialCard21.TabIndex = 19;
+            // 
+            // materialLabel10
+            // 
+            materialLabel10.AutoSize = true;
+            materialLabel10.Depth = 0;
+            materialLabel10.Font = new Font("Roboto", 14F, FontStyle.Regular, GraphicsUnit.Pixel);
+            materialLabel10.Location = new Point(17, 24);
+            materialLabel10.MouseState = MaterialSkin.MouseState.HOVER;
+            materialLabel10.Name = "materialLabel10";
+            materialLabel10.Size = new Size(211, 19);
+            materialLabel10.TabIndex = 24;
+            materialLabel10.Text = "Not Ekleme/Güncelleme Alanı";
+            // 
+            // materialButton17
+            // 
+            materialButton17.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            materialButton17.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            materialButton17.Depth = 0;
+            materialButton17.HighEmphasis = true;
+            materialButton17.Icon = null;
+            materialButton17.Location = new Point(462, 214);
+            materialButton17.Margin = new Padding(4, 6, 4, 6);
+            materialButton17.MouseState = MaterialSkin.MouseState.HOVER;
+            materialButton17.Name = "materialButton17";
+            materialButton17.NoAccentTextColor = Color.Empty;
+            materialButton17.Size = new Size(143, 36);
+            materialButton17.TabIndex = 20;
+            materialButton17.Text = "Not Bilgisini Sil";
+            materialButton17.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            materialButton17.UseAccentColor = false;
+            materialButton17.UseVisualStyleBackColor = true;
+            materialButton17.Click += materialButton17_Click;
+            // 
+            // materialTextBox13
+            // 
+            materialTextBox13.AnimateReadOnly = false;
+            materialTextBox13.BorderStyle = BorderStyle.None;
+            materialTextBox13.Depth = 0;
+            materialTextBox13.Font = new Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
+            materialTextBox13.LeadingIcon = null;
+            materialTextBox13.Location = new Point(640, 203);
+            materialTextBox13.MaxLength = 50;
+            materialTextBox13.MouseState = MaterialSkin.MouseState.OUT;
+            materialTextBox13.Multiline = false;
+            materialTextBox13.Name = "materialTextBox13";
+            materialTextBox13.Size = new Size(41, 50);
+            materialTextBox13.TabIndex = 23;
+            materialTextBox13.Text = "";
+            materialTextBox13.TrailingIcon = null;
+            materialTextBox13.Visible = false;
+            // 
+            // materialButton11
+            // 
+            materialButton11.AutoSize = false;
+            materialButton11.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            materialButton11.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            materialButton11.Depth = 0;
+            materialButton11.HighEmphasis = true;
+            materialButton11.Icon = null;
+            materialButton11.Location = new Point(257, 214);
+            materialButton11.Margin = new Padding(4, 6, 4, 6);
+            materialButton11.MouseState = MaterialSkin.MouseState.HOVER;
+            materialButton11.Name = "materialButton11";
+            materialButton11.NoAccentTextColor = Color.Empty;
+            materialButton11.Size = new Size(197, 36);
+            materialButton11.TabIndex = 22;
+            materialButton11.Text = "Güncelle";
+            materialButton11.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            materialButton11.UseAccentColor = false;
+            materialButton11.UseVisualStyleBackColor = true;
+            materialButton11.Click += materialButton11_Click;
+            // 
+            // materialButton13
+            // 
+            materialButton13.AutoSize = false;
+            materialButton13.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            materialButton13.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            materialButton13.Depth = 0;
+            materialButton13.HighEmphasis = true;
+            materialButton13.Icon = null;
+            materialButton13.Location = new Point(65, 214);
+            materialButton13.Margin = new Padding(4, 6, 4, 6);
+            materialButton13.MouseState = MaterialSkin.MouseState.HOVER;
+            materialButton13.Name = "materialButton13";
+            materialButton13.NoAccentTextColor = Color.Empty;
+            materialButton13.Size = new Size(184, 36);
+            materialButton13.TabIndex = 21;
+            materialButton13.Text = "Kaydet";
+            materialButton13.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            materialButton13.UseAccentColor = false;
+            materialButton13.UseVisualStyleBackColor = true;
+            materialButton13.Click += materialButton13_Click;
+            // 
+            // materialCard23
+            // 
+            materialCard23.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard23.Controls.Add(materialComboBox2);
+            materialCard23.Controls.Add(materialMaskedTextBox4);
+            materialCard23.Depth = 0;
+            materialCard23.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialCard23.Location = new Point(352, 57);
+            materialCard23.Margin = new Padding(14);
+            materialCard23.MouseState = MaterialSkin.MouseState.HOVER;
+            materialCard23.Name = "materialCard23";
+            materialCard23.Padding = new Padding(14);
+            materialCard23.Size = new Size(329, 138);
+            materialCard23.TabIndex = 18;
+            // 
+            // materialComboBox2
+            // 
+            materialComboBox2.AutoResize = false;
+            materialComboBox2.BackColor = Color.FromArgb(255, 255, 255);
+            materialComboBox2.Depth = 0;
+            materialComboBox2.DrawMode = DrawMode.OwnerDrawVariable;
+            materialComboBox2.DropDownHeight = 174;
+            materialComboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
+            materialComboBox2.DropDownWidth = 121;
+            materialComboBox2.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Pixel);
+            materialComboBox2.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialComboBox2.FormattingEnabled = true;
+            materialComboBox2.Hint = "Öğrenci";
+            materialComboBox2.IntegralHeight = false;
+            materialComboBox2.ItemHeight = 43;
+            materialComboBox2.Location = new Point(15, 17);
+            materialComboBox2.MaxDropDownItems = 4;
+            materialComboBox2.MouseState = MaterialSkin.MouseState.OUT;
+            materialComboBox2.Name = "materialComboBox2";
+            materialComboBox2.Size = new Size(295, 49);
+            materialComboBox2.StartIndex = 0;
+            materialComboBox2.TabIndex = 4;
+            materialComboBox2.Click += materialComboBox2_Click;
+            // 
+            // materialMaskedTextBox4
+            // 
+            materialMaskedTextBox4.AllowPromptAsInput = true;
+            materialMaskedTextBox4.AnimateReadOnly = false;
+            materialMaskedTextBox4.AsciiOnly = false;
+            materialMaskedTextBox4.BackgroundImageLayout = ImageLayout.None;
+            materialMaskedTextBox4.BeepOnError = false;
+            materialMaskedTextBox4.CutCopyMaskFormat = MaskFormat.IncludeLiterals;
+            materialMaskedTextBox4.Depth = 0;
+            materialMaskedTextBox4.Font = new Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
+            materialMaskedTextBox4.HidePromptOnLeave = false;
+            materialMaskedTextBox4.HideSelection = true;
+            materialMaskedTextBox4.Hint = "Not";
+            materialMaskedTextBox4.InsertKeyMode = InsertKeyMode.Default;
+            materialMaskedTextBox4.LeadingIcon = null;
+            materialMaskedTextBox4.Location = new Point(15, 72);
+            materialMaskedTextBox4.Mask = "000";
+            materialMaskedTextBox4.MaxLength = 32767;
+            materialMaskedTextBox4.MouseState = MaterialSkin.MouseState.OUT;
+            materialMaskedTextBox4.Name = "materialMaskedTextBox4";
+            materialMaskedTextBox4.PasswordChar = '\0';
+            materialMaskedTextBox4.PrefixSuffixText = null;
+            materialMaskedTextBox4.PromptChar = '_';
+            materialMaskedTextBox4.ReadOnly = false;
+            materialMaskedTextBox4.RejectInputOnFirstFailure = false;
+            materialMaskedTextBox4.ResetOnPrompt = true;
+            materialMaskedTextBox4.ResetOnSpace = true;
+            materialMaskedTextBox4.RightToLeft = RightToLeft.No;
+            materialMaskedTextBox4.SelectedText = "";
+            materialMaskedTextBox4.SelectionLength = 0;
+            materialMaskedTextBox4.SelectionStart = 0;
+            materialMaskedTextBox4.ShortcutsEnabled = true;
+            materialMaskedTextBox4.Size = new Size(295, 48);
+            materialMaskedTextBox4.SkipLiterals = true;
+            materialMaskedTextBox4.TabIndex = 5;
+            materialMaskedTextBox4.TabStop = false;
+            materialMaskedTextBox4.TextAlign = HorizontalAlignment.Left;
+            materialMaskedTextBox4.TextMaskFormat = MaskFormat.IncludeLiterals;
+            materialMaskedTextBox4.TrailingIcon = null;
+            materialMaskedTextBox4.UseSystemPasswordChar = false;
+            materialMaskedTextBox4.ValidatingType = null;
+            // 
+            // materialCard22
+            // 
+            materialCard22.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard22.Controls.Add(materialComboBox7);
+            materialCard22.Controls.Add(materialComboBox6);
+            materialCard22.Depth = 0;
+            materialCard22.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialCard22.Location = new Point(10, 57);
+            materialCard22.Margin = new Padding(14);
+            materialCard22.MouseState = MaterialSkin.MouseState.HOVER;
+            materialCard22.Name = "materialCard22";
+            materialCard22.Padding = new Padding(14);
+            materialCard22.Size = new Size(329, 138);
+            materialCard22.TabIndex = 17;
+            // 
+            // materialComboBox7
+            // 
+            materialComboBox7.AutoResize = false;
+            materialComboBox7.BackColor = Color.FromArgb(255, 255, 255);
+            materialComboBox7.Depth = 0;
+            materialComboBox7.DrawMode = DrawMode.OwnerDrawVariable;
+            materialComboBox7.DropDownHeight = 174;
+            materialComboBox7.DropDownStyle = ComboBoxStyle.DropDownList;
+            materialComboBox7.DropDownWidth = 121;
+            materialComboBox7.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Pixel);
+            materialComboBox7.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialComboBox7.FormattingEnabled = true;
+            materialComboBox7.Hint = "Ders Adı";
+            materialComboBox7.IntegralHeight = false;
+            materialComboBox7.ItemHeight = 43;
+            materialComboBox7.Location = new Point(15, 15);
+            materialComboBox7.MaxDropDownItems = 4;
+            materialComboBox7.MouseState = MaterialSkin.MouseState.OUT;
+            materialComboBox7.Name = "materialComboBox7";
+            materialComboBox7.Size = new Size(297, 49);
+            materialComboBox7.StartIndex = 0;
+            materialComboBox7.TabIndex = 3;
+            materialComboBox7.Click += materialComboBox7_Click;
+            // 
+            // materialComboBox6
+            // 
+            materialComboBox6.AutoResize = false;
+            materialComboBox6.BackColor = Color.FromArgb(255, 255, 255);
+            materialComboBox6.Depth = 0;
+            materialComboBox6.DrawMode = DrawMode.OwnerDrawVariable;
+            materialComboBox6.DropDownHeight = 174;
+            materialComboBox6.DropDownStyle = ComboBoxStyle.DropDownList;
+            materialComboBox6.DropDownWidth = 121;
+            materialComboBox6.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Pixel);
+            materialComboBox6.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialComboBox6.FormattingEnabled = true;
+            materialComboBox6.Hint = "Sınav Tipi";
+            materialComboBox6.IntegralHeight = false;
+            materialComboBox6.ItemHeight = 43;
+            materialComboBox6.Items.AddRange(new object[] { "1.Sınav", "2.Sınav" });
+            materialComboBox6.Location = new Point(15, 72);
+            materialComboBox6.MaxDropDownItems = 4;
+            materialComboBox6.MouseState = MaterialSkin.MouseState.OUT;
+            materialComboBox6.Name = "materialComboBox6";
+            materialComboBox6.Size = new Size(297, 49);
+            materialComboBox6.StartIndex = 0;
+            materialComboBox6.TabIndex = 2;
+            // 
+            // dataGridView3
+            // 
+            dataGridView3.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView3.BackgroundColor = SystemColors.ControlDarkDark;
+            dataGridView3.BorderStyle = BorderStyle.None;
+            dataGridView3.CellBorderStyle = DataGridViewCellBorderStyle.SingleVertical;
+            dataGridView3.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = SystemColors.ControlDarkDark;
+            dataGridViewCellStyle7.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle7.ForeColor = SystemColors.Window;
+            dataGridViewCellStyle7.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = DataGridViewTriState.True;
+            dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridView3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle8.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = SystemColors.AppWorkspace;
+            dataGridViewCellStyle8.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle8.ForeColor = SystemColors.MenuText;
+            dataGridViewCellStyle8.SelectionBackColor = SystemColors.GrayText;
+            dataGridViewCellStyle8.SelectionForeColor = SystemColors.ControlLightLight;
+            dataGridViewCellStyle8.WrapMode = DataGridViewTriState.False;
+            dataGridView3.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridView3.Dock = DockStyle.Top;
+            dataGridView3.EnableHeadersVisualStyles = false;
+            dataGridView3.GridColor = SystemColors.GrayText;
+            dataGridView3.Location = new Point(0, 0);
+            dataGridView3.Name = "dataGridView3";
+            dataGridView3.Size = new Size(1443, 271);
+            dataGridView3.TabIndex = 12;
+            dataGridView3.CellDoubleClick += dataGridView3_CellDoubleClick;
+            // 
+            // tabPage6
+            // 
+            tabPage6.Controls.Add(materialCard27);
+            tabPage6.Controls.Add(materialButton22);
+            tabPage6.Controls.Add(materialCard26);
+            tabPage6.Controls.Add(dataGridView5);
+            tabPage6.ImageKey = "absentism.png";
+            tabPage6.Location = new Point(4, 24);
+            tabPage6.Name = "tabPage6";
+            tabPage6.Size = new Size(1449, 601);
+            tabPage6.TabIndex = 6;
+            tabPage6.Text = "Devamsızlık Yönetim";
+            tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // materialCard27
+            // 
+            materialCard27.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard27.Controls.Add(materialCard30);
+            materialCard27.Controls.Add(materialLabel12);
+            materialCard27.Controls.Add(materialCard29);
+            materialCard27.Depth = 0;
+            materialCard27.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialCard27.Location = new Point(629, 321);
+            materialCard27.Margin = new Padding(14);
+            materialCard27.MouseState = MaterialSkin.MouseState.HOVER;
+            materialCard27.Name = "materialCard27";
+            materialCard27.Padding = new Padding(14);
+            materialCard27.Size = new Size(638, 270);
+            materialCard27.TabIndex = 26;
+            // 
+            // materialCard30
+            // 
+            materialCard30.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard30.Controls.Add(materialTextBox19);
+            materialCard30.Controls.Add(materialTextBox18);
+            materialCard30.Depth = 0;
+            materialCard30.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialCard30.Location = new Point(304, 64);
+            materialCard30.Margin = new Padding(14);
+            materialCard30.MouseState = MaterialSkin.MouseState.HOVER;
+            materialCard30.Name = "materialCard30";
+            materialCard30.Padding = new Padding(14);
+            materialCard30.Size = new Size(314, 140);
+            materialCard30.TabIndex = 25;
+            // 
+            // materialTextBox19
+            // 
+            materialTextBox19.AnimateReadOnly = false;
+            materialTextBox19.BorderStyle = BorderStyle.None;
+            materialTextBox19.Depth = 0;
+            materialTextBox19.Enabled = false;
+            materialTextBox19.Font = new Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
+            materialTextBox19.Hint = "Mazaretli Devamsızlık Sayısı";
+            materialTextBox19.LeadingIcon = null;
+            materialTextBox19.Location = new Point(17, 79);
+            materialTextBox19.MaxLength = 50;
+            materialTextBox19.MouseState = MaterialSkin.MouseState.OUT;
+            materialTextBox19.Multiline = false;
+            materialTextBox19.Name = "materialTextBox19";
+            materialTextBox19.Size = new Size(280, 50);
+            materialTextBox19.TabIndex = 1;
+            materialTextBox19.Text = "";
+            materialTextBox19.TrailingIcon = null;
+            // 
+            // materialTextBox18
+            // 
+            materialTextBox18.AnimateReadOnly = false;
+            materialTextBox18.BorderStyle = BorderStyle.None;
+            materialTextBox18.Depth = 0;
+            materialTextBox18.Enabled = false;
+            materialTextBox18.Font = new Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
+            materialTextBox18.Hint = "Mazaretsiz Devamsızlık Sayısı";
+            materialTextBox18.LeadingIcon = null;
+            materialTextBox18.Location = new Point(17, 16);
+            materialTextBox18.MaxLength = 50;
+            materialTextBox18.MouseState = MaterialSkin.MouseState.OUT;
+            materialTextBox18.Multiline = false;
+            materialTextBox18.Name = "materialTextBox18";
+            materialTextBox18.Size = new Size(280, 50);
+            materialTextBox18.TabIndex = 0;
+            materialTextBox18.Text = "";
+            materialTextBox18.TrailingIcon = null;
+            // 
+            // materialLabel12
+            // 
+            materialLabel12.AutoSize = true;
+            materialLabel12.Depth = 0;
+            materialLabel12.Font = new Font("Roboto", 14F, FontStyle.Regular, GraphicsUnit.Pixel);
+            materialLabel12.Location = new Point(304, 37);
+            materialLabel12.MouseState = MaterialSkin.MouseState.HOVER;
+            materialLabel12.Name = "materialLabel12";
+            materialLabel12.Size = new Size(193, 19);
+            materialLabel12.TabIndex = 24;
+            materialLabel12.Text = "Toplam Devamsızlık Sayısı";
+            // 
+            // materialCard29
+            // 
+            materialCard29.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard29.Controls.Add(materialComboBox5);
+            materialCard29.Controls.Add(materialButton25);
+            materialCard29.Depth = 0;
+            materialCard29.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialCard29.Location = new Point(13, 64);
+            materialCard29.Margin = new Padding(14);
+            materialCard29.MouseState = MaterialSkin.MouseState.HOVER;
+            materialCard29.Name = "materialCard29";
+            materialCard29.Padding = new Padding(14);
+            materialCard29.Size = new Size(272, 138);
+            materialCard29.TabIndex = 17;
+            // 
+            // materialComboBox5
+            // 
+            materialComboBox5.AutoResize = false;
+            materialComboBox5.BackColor = Color.FromArgb(255, 255, 255);
+            materialComboBox5.Depth = 0;
+            materialComboBox5.DrawMode = DrawMode.OwnerDrawVariable;
+            materialComboBox5.DropDownHeight = 174;
+            materialComboBox5.DropDownStyle = ComboBoxStyle.DropDownList;
+            materialComboBox5.DropDownWidth = 121;
+            materialComboBox5.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Pixel);
+            materialComboBox5.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialComboBox5.FormattingEnabled = true;
+            materialComboBox5.Hint = "Öğrenci";
+            materialComboBox5.IntegralHeight = false;
+            materialComboBox5.ItemHeight = 43;
+            materialComboBox5.Location = new Point(15, 15);
+            materialComboBox5.MaxDropDownItems = 4;
+            materialComboBox5.MouseState = MaterialSkin.MouseState.OUT;
+            materialComboBox5.Name = "materialComboBox5";
+            materialComboBox5.Size = new Size(245, 49);
+            materialComboBox5.StartIndex = 0;
+            materialComboBox5.TabIndex = 3;
+            // 
+            // materialButton25
+            // 
+            materialButton25.AutoSize = false;
+            materialButton25.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            materialButton25.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            materialButton25.Depth = 0;
+            materialButton25.HighEmphasis = true;
+            materialButton25.Icon = null;
+            materialButton25.Location = new Point(47, 82);
+            materialButton25.Margin = new Padding(4, 6, 4, 6);
+            materialButton25.MouseState = MaterialSkin.MouseState.HOVER;
+            materialButton25.Name = "materialButton25";
+            materialButton25.NoAccentTextColor = Color.Empty;
+            materialButton25.Size = new Size(175, 36);
+            materialButton25.TabIndex = 21;
+            materialButton25.Text = "Getir";
+            materialButton25.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            materialButton25.UseAccentColor = false;
+            materialButton25.UseVisualStyleBackColor = true;
+            materialButton25.Click += materialButton25_Click;
+            // 
+            // materialButton22
+            // 
+            materialButton22.AutoSize = false;
+            materialButton22.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            materialButton22.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            materialButton22.Depth = 0;
+            materialButton22.HighEmphasis = true;
+            materialButton22.Icon = null;
+            materialButton22.Location = new Point(14, 307);
+            materialButton22.Margin = new Padding(4, 6, 4, 6);
+            materialButton22.MouseState = MaterialSkin.MouseState.HOVER;
+            materialButton22.Name = "materialButton22";
+            materialButton22.NoAccentTextColor = Color.Empty;
+            materialButton22.Size = new Size(203, 36);
+            materialButton22.TabIndex = 26;
+            materialButton22.Text = "Devamsızlıkları Getir";
+            materialButton22.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            materialButton22.UseAccentColor = false;
+            materialButton22.UseVisualStyleBackColor = true;
+            materialButton22.Click += materialButton22_Click;
+            // 
+            // materialCard26
+            // 
+            materialCard26.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard26.Controls.Add(materialButton19);
+            materialCard26.Controls.Add(materialLabel11);
+            materialCard26.Controls.Add(materialTextBox17);
+            materialCard26.Controls.Add(materialButton20);
+            materialCard26.Controls.Add(materialButton21);
+            materialCard26.Controls.Add(materialCard28);
+            materialCard26.Depth = 0;
+            materialCard26.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialCard26.Location = new Point(251, 321);
+            materialCard26.Margin = new Padding(14);
+            materialCard26.MouseState = MaterialSkin.MouseState.HOVER;
+            materialCard26.Name = "materialCard26";
+            materialCard26.Padding = new Padding(14);
+            materialCard26.Size = new Size(350, 270);
+            materialCard26.TabIndex = 20;
+            // 
+            // materialButton19
+            // 
+            materialButton19.AutoSize = false;
+            materialButton19.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            materialButton19.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            materialButton19.Depth = 0;
+            materialButton19.HighEmphasis = true;
+            materialButton19.Icon = null;
+            materialButton19.Location = new Point(226, 214);
+            materialButton19.Margin = new Padding(4, 6, 4, 6);
+            materialButton19.MouseState = MaterialSkin.MouseState.HOVER;
+            materialButton19.Name = "materialButton19";
+            materialButton19.NoAccentTextColor = Color.Empty;
+            materialButton19.Size = new Size(96, 36);
+            materialButton19.TabIndex = 25;
+            materialButton19.Text = "Kaldır";
+            materialButton19.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            materialButton19.UseAccentColor = false;
+            materialButton19.UseVisualStyleBackColor = true;
+            materialButton19.Click += materialButton19_Click;
+            // 
+            // materialLabel11
+            // 
+            materialLabel11.AutoSize = true;
+            materialLabel11.Depth = 0;
+            materialLabel11.Font = new Font("Roboto", 14F, FontStyle.Regular, GraphicsUnit.Pixel);
+            materialLabel11.Location = new Point(17, 24);
+            materialLabel11.MouseState = MaterialSkin.MouseState.HOVER;
+            materialLabel11.Name = "materialLabel11";
+            materialLabel11.Size = new Size(150, 19);
+            materialLabel11.TabIndex = 24;
+            materialLabel11.Text = "Devamsızlık Yönetim";
+            // 
+            // materialTextBox17
+            // 
+            materialTextBox17.AnimateReadOnly = false;
+            materialTextBox17.BorderStyle = BorderStyle.None;
+            materialTextBox17.Depth = 0;
+            materialTextBox17.Font = new Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
+            materialTextBox17.LeadingIcon = null;
+            materialTextBox17.Location = new Point(299, 6);
+            materialTextBox17.MaxLength = 50;
+            materialTextBox17.MouseState = MaterialSkin.MouseState.OUT;
+            materialTextBox17.Multiline = false;
+            materialTextBox17.Name = "materialTextBox17";
+            materialTextBox17.Size = new Size(41, 50);
+            materialTextBox17.TabIndex = 23;
+            materialTextBox17.Text = "";
+            materialTextBox17.TrailingIcon = null;
+            materialTextBox17.Visible = false;
+            // 
+            // materialButton20
+            // 
+            materialButton20.AutoSize = false;
+            materialButton20.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            materialButton20.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            materialButton20.Depth = 0;
+            materialButton20.HighEmphasis = true;
+            materialButton20.Icon = null;
+            materialButton20.Location = new Point(119, 214);
+            materialButton20.Margin = new Padding(4, 6, 4, 6);
+            materialButton20.MouseState = MaterialSkin.MouseState.HOVER;
+            materialButton20.Name = "materialButton20";
+            materialButton20.NoAccentTextColor = Color.Empty;
+            materialButton20.Size = new Size(96, 36);
+            materialButton20.TabIndex = 22;
+            materialButton20.Text = "Güncelle";
+            materialButton20.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            materialButton20.UseAccentColor = false;
+            materialButton20.UseVisualStyleBackColor = true;
+            materialButton20.Click += materialButton20_Click;
+            // 
+            // materialButton21
+            // 
+            materialButton21.AutoSize = false;
+            materialButton21.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            materialButton21.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            materialButton21.Depth = 0;
+            materialButton21.HighEmphasis = true;
+            materialButton21.Icon = null;
+            materialButton21.Location = new Point(25, 214);
+            materialButton21.Margin = new Padding(4, 6, 4, 6);
+            materialButton21.MouseState = MaterialSkin.MouseState.HOVER;
+            materialButton21.Name = "materialButton21";
+            materialButton21.NoAccentTextColor = Color.Empty;
+            materialButton21.Size = new Size(83, 36);
+            materialButton21.TabIndex = 21;
+            materialButton21.Text = "Kaydet";
+            materialButton21.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            materialButton21.UseAccentColor = false;
+            materialButton21.UseVisualStyleBackColor = true;
+            materialButton21.Click += materialButton21_Click;
+            // 
+            // materialCard28
+            // 
+            materialCard28.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard28.Controls.Add(materialSwitch1);
+            materialCard28.Controls.Add(materialComboBox8);
+            materialCard28.Depth = 0;
+            materialCard28.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialCard28.Location = new Point(10, 57);
+            materialCard28.Margin = new Padding(14);
+            materialCard28.MouseState = MaterialSkin.MouseState.HOVER;
+            materialCard28.Name = "materialCard28";
+            materialCard28.Padding = new Padding(14);
+            materialCard28.Size = new Size(329, 138);
+            materialCard28.TabIndex = 17;
+            // 
+            // materialSwitch1
+            // 
+            materialSwitch1.AutoSize = true;
+            materialSwitch1.Depth = 0;
+            materialSwitch1.Location = new Point(15, 87);
+            materialSwitch1.Margin = new Padding(0);
+            materialSwitch1.MouseLocation = new Point(-1, -1);
+            materialSwitch1.MouseState = MaterialSkin.MouseState.HOVER;
+            materialSwitch1.Name = "materialSwitch1";
+            materialSwitch1.Ripple = true;
+            materialSwitch1.Size = new Size(213, 37);
+            materialSwitch1.TabIndex = 5;
+            materialSwitch1.Text = "Mazeretli Devamsızlık";
+            materialSwitch1.UseVisualStyleBackColor = true;
+            // 
+            // materialComboBox8
+            // 
+            materialComboBox8.AutoResize = false;
+            materialComboBox8.BackColor = Color.FromArgb(255, 255, 255);
+            materialComboBox8.Depth = 0;
+            materialComboBox8.DrawMode = DrawMode.OwnerDrawVariable;
+            materialComboBox8.DropDownHeight = 174;
+            materialComboBox8.DropDownStyle = ComboBoxStyle.DropDownList;
+            materialComboBox8.DropDownWidth = 121;
+            materialComboBox8.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Bold, GraphicsUnit.Pixel);
+            materialComboBox8.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialComboBox8.FormattingEnabled = true;
+            materialComboBox8.Hint = "Öğrenci";
+            materialComboBox8.IntegralHeight = false;
+            materialComboBox8.ItemHeight = 43;
+            materialComboBox8.Location = new Point(15, 15);
+            materialComboBox8.MaxDropDownItems = 4;
+            materialComboBox8.MouseState = MaterialSkin.MouseState.OUT;
+            materialComboBox8.Name = "materialComboBox8";
+            materialComboBox8.Size = new Size(297, 49);
+            materialComboBox8.StartIndex = 0;
+            materialComboBox8.TabIndex = 3;
+            // 
+            // dataGridView5
+            // 
+            dataGridView5.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView5.BackgroundColor = SystemColors.ControlDarkDark;
+            dataGridView5.BorderStyle = BorderStyle.None;
+            dataGridView5.CellBorderStyle = DataGridViewCellBorderStyle.SingleVertical;
+            dataGridView5.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = SystemColors.ControlDarkDark;
+            dataGridViewCellStyle9.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle9.ForeColor = SystemColors.Window;
+            dataGridViewCellStyle9.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = DataGridViewTriState.True;
+            dataGridView5.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridView5.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle10.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = SystemColors.AppWorkspace;
+            dataGridViewCellStyle10.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle10.ForeColor = SystemColors.MenuText;
+            dataGridViewCellStyle10.SelectionBackColor = SystemColors.GrayText;
+            dataGridViewCellStyle10.SelectionForeColor = SystemColors.ControlLightLight;
+            dataGridViewCellStyle10.WrapMode = DataGridViewTriState.False;
+            dataGridView5.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridView5.Dock = DockStyle.Top;
+            dataGridView5.EnableHeadersVisualStyles = false;
+            dataGridView5.GridColor = SystemColors.GrayText;
+            dataGridView5.Location = new Point(0, 0);
+            dataGridView5.Name = "dataGridView5";
+            dataGridView5.Size = new Size(1449, 298);
+            dataGridView5.TabIndex = 13;
+            dataGridView5.CellDoubleClick += dataGridView5_CellDoubleClick;
+            // 
+            // tabPage5
+            // 
+            tabPage5.Controls.Add(materialButton14);
+            tabPage5.Controls.Add(dataGridView4);
+            tabPage5.ImageKey = "exam.png";
+            tabPage5.Location = new Point(4, 24);
+            tabPage5.Name = "tabPage5";
+            tabPage5.Size = new Size(1449, 601);
+            tabPage5.TabIndex = 5;
+            tabPage5.Text = "Not Görüntüleme";
+            tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // materialButton14
+            // 
+            materialButton14.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            materialButton14.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            materialButton14.Depth = 0;
+            materialButton14.HighEmphasis = true;
+            materialButton14.Icon = null;
+            materialButton14.Location = new Point(633, 565);
+            materialButton14.Margin = new Padding(4, 6, 4, 6);
+            materialButton14.MouseState = MaterialSkin.MouseState.HOVER;
+            materialButton14.Name = "materialButton14";
+            materialButton14.NoAccentTextColor = Color.Empty;
+            materialButton14.Size = new Size(170, 36);
+            materialButton14.TabIndex = 14;
+            materialButton14.Text = "Notları Görüntüle";
+            materialButton14.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            materialButton14.UseAccentColor = false;
+            materialButton14.UseVisualStyleBackColor = true;
+            materialButton14.Click += materialButton14_Click;
+            // 
+            // dataGridView4
+            // 
+            dataGridView4.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView4.BackgroundColor = SystemColors.ControlDarkDark;
+            dataGridView4.BorderStyle = BorderStyle.None;
+            dataGridView4.CellBorderStyle = DataGridViewCellBorderStyle.SingleVertical;
+            dataGridView4.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle11.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = SystemColors.ControlDarkDark;
+            dataGridViewCellStyle11.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle11.ForeColor = SystemColors.Window;
+            dataGridViewCellStyle11.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = DataGridViewTriState.True;
+            dataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridView4.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle12.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = SystemColors.AppWorkspace;
+            dataGridViewCellStyle12.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle12.ForeColor = SystemColors.MenuText;
+            dataGridViewCellStyle12.SelectionBackColor = SystemColors.GrayText;
+            dataGridViewCellStyle12.SelectionForeColor = SystemColors.ControlLightLight;
+            dataGridViewCellStyle12.WrapMode = DataGridViewTriState.False;
+            dataGridView4.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridView4.Dock = DockStyle.Top;
+            dataGridView4.EnableHeadersVisualStyles = false;
+            dataGridView4.GridColor = SystemColors.GrayText;
+            dataGridView4.Location = new Point(0, 0);
+            dataGridView4.Name = "dataGridView4";
+            dataGridView4.Size = new Size(1449, 556);
+            dataGridView4.TabIndex = 13;
+            // 
+            // tabPage7
+            // 
+            tabPage7.Controls.Add(materialCard32);
+            tabPage7.Controls.Add(materialButton23);
+            tabPage7.Controls.Add(dataGridView6);
+            tabPage7.ImageKey = "absence.png";
+            tabPage7.Location = new Point(4, 24);
+            tabPage7.Name = "tabPage7";
+            tabPage7.Size = new Size(1449, 601);
+            tabPage7.TabIndex = 7;
+            tabPage7.Text = "Devamsızlık Görüntüleme";
+            tabPage7.UseVisualStyleBackColor = true;
+            // 
+            // materialCard32
+            // 
+            materialCard32.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard32.Controls.Add(materialLabel13);
+            materialCard32.Controls.Add(materialCard31);
+            materialCard32.Depth = 0;
+            materialCard32.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialCard32.Location = new Point(614, 403);
+            materialCard32.Margin = new Padding(14);
+            materialCard32.MouseState = MaterialSkin.MouseState.HOVER;
+            materialCard32.Name = "materialCard32";
+            materialCard32.Padding = new Padding(14);
+            materialCard32.Size = new Size(344, 198);
+            materialCard32.TabIndex = 28;
+            // 
+            // materialLabel13
+            // 
+            materialLabel13.AutoSize = true;
+            materialLabel13.Depth = 0;
+            materialLabel13.Font = new Font("Roboto", 14F, FontStyle.Regular, GraphicsUnit.Pixel);
+            materialLabel13.Location = new Point(17, 14);
+            materialLabel13.MouseState = MaterialSkin.MouseState.HOVER;
+            materialLabel13.Name = "materialLabel13";
+            materialLabel13.Size = new Size(193, 19);
+            materialLabel13.TabIndex = 26;
+            materialLabel13.Text = "Toplam Devamsızlık Sayısı";
+            // 
+            // materialCard31
+            // 
+            materialCard31.BackColor = Color.FromArgb(255, 255, 255);
+            materialCard31.Controls.Add(materialTextBox20);
+            materialCard31.Controls.Add(materialTextBox21);
+            materialCard31.Depth = 0;
+            materialCard31.ForeColor = Color.FromArgb(222, 0, 0, 0);
+            materialCard31.Location = new Point(14, 46);
+            materialCard31.Margin = new Padding(14);
+            materialCard31.MouseState = MaterialSkin.MouseState.HOVER;
+            materialCard31.Name = "materialCard31";
+            materialCard31.Padding = new Padding(14);
+            materialCard31.Size = new Size(314, 140);
+            materialCard31.TabIndex = 27;
+            // 
+            // materialTextBox20
+            // 
+            materialTextBox20.AnimateReadOnly = false;
+            materialTextBox20.BorderStyle = BorderStyle.None;
+            materialTextBox20.Depth = 0;
+            materialTextBox20.Enabled = false;
+            materialTextBox20.Font = new Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
+            materialTextBox20.Hint = "Mazaretli Devamsızlık Sayısı";
+            materialTextBox20.LeadingIcon = null;
+            materialTextBox20.Location = new Point(17, 79);
+            materialTextBox20.MaxLength = 50;
+            materialTextBox20.MouseState = MaterialSkin.MouseState.OUT;
+            materialTextBox20.Multiline = false;
+            materialTextBox20.Name = "materialTextBox20";
+            materialTextBox20.Size = new Size(280, 50);
+            materialTextBox20.TabIndex = 1;
+            materialTextBox20.Text = "";
+            materialTextBox20.TrailingIcon = null;
+            // 
+            // materialTextBox21
+            // 
+            materialTextBox21.AnimateReadOnly = false;
+            materialTextBox21.BorderStyle = BorderStyle.None;
+            materialTextBox21.Depth = 0;
+            materialTextBox21.Enabled = false;
+            materialTextBox21.Font = new Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
+            materialTextBox21.Hint = "Mazaretsiz Devamsızlık Sayısı";
+            materialTextBox21.LeadingIcon = null;
+            materialTextBox21.Location = new Point(17, 16);
+            materialTextBox21.MaxLength = 50;
+            materialTextBox21.MouseState = MaterialSkin.MouseState.OUT;
+            materialTextBox21.Multiline = false;
+            materialTextBox21.Name = "materialTextBox21";
+            materialTextBox21.Size = new Size(280, 50);
+            materialTextBox21.TabIndex = 0;
+            materialTextBox21.Text = "";
+            materialTextBox21.TrailingIcon = null;
+            // 
+            // materialButton23
+            // 
+            materialButton23.AutoSize = false;
+            materialButton23.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            materialButton23.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            materialButton23.Depth = 0;
+            materialButton23.HighEmphasis = true;
+            materialButton23.Icon = null;
+            materialButton23.Location = new Point(4, 400);
+            materialButton23.Margin = new Padding(4, 6, 4, 6);
+            materialButton23.MouseState = MaterialSkin.MouseState.HOVER;
+            materialButton23.Name = "materialButton23";
+            materialButton23.NoAccentTextColor = Color.Empty;
+            materialButton23.Size = new Size(282, 36);
+            materialButton23.TabIndex = 16;
+            materialButton23.Text = "Devamsızlıkları Görüntüle";
+            materialButton23.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            materialButton23.UseAccentColor = false;
+            materialButton23.UseVisualStyleBackColor = true;
+            materialButton23.Click += materialButton23_Click;
+            // 
+            // dataGridView6
+            // 
+            dataGridView6.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridView6.BackgroundColor = SystemColors.ControlDarkDark;
+            dataGridView6.BorderStyle = BorderStyle.None;
+            dataGridView6.CellBorderStyle = DataGridViewCellBorderStyle.SingleVertical;
+            dataGridView6.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle13.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle13.BackColor = SystemColors.ControlDarkDark;
+            dataGridViewCellStyle13.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle13.ForeColor = SystemColors.Window;
+            dataGridViewCellStyle13.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle13.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle13.WrapMode = DataGridViewTriState.True;
+            dataGridView6.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
+            dataGridView6.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle14.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = SystemColors.AppWorkspace;
+            dataGridViewCellStyle14.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle14.ForeColor = SystemColors.MenuText;
+            dataGridViewCellStyle14.SelectionBackColor = SystemColors.GrayText;
+            dataGridViewCellStyle14.SelectionForeColor = SystemColors.ControlLightLight;
+            dataGridViewCellStyle14.WrapMode = DataGridViewTriState.False;
+            dataGridView6.DefaultCellStyle = dataGridViewCellStyle14;
+            dataGridView6.Dock = DockStyle.Top;
+            dataGridView6.EnableHeadersVisualStyles = false;
+            dataGridView6.GridColor = SystemColors.GrayText;
+            dataGridView6.Location = new Point(0, 0);
+            dataGridView6.Name = "dataGridView6";
+            dataGridView6.Size = new Size(1449, 391);
+            dataGridView6.TabIndex = 15;
             // 
             // ımageList1
             // 
             ımageList1.ColorDepth = ColorDepth.Depth32Bit;
-            ımageList1.ImageSize = new Size(16, 16);
+            ımageList1.ImageStream = (ImageListStreamer)resources.GetObject("ımageList1.ImageStream");
             ımageList1.TransparentColor = Color.Transparent;
+            ımageList1.Images.SetKeyName(0, "lesson.png");
+            ımageList1.Images.SetKeyName(1, "teacher.png");
+            ımageList1.Images.SetKeyName(2, "student.png");
+            ımageList1.Images.SetKeyName(3, "business-credit-score.png");
+            ımageList1.Images.SetKeyName(4, "exam.png");
+            ımageList1.Images.SetKeyName(5, "absentism.png");
+            ımageList1.Images.SetKeyName(6, "absence.png");
             // 
             // mySqlDataAdapter1
             // 
@@ -1853,6 +3034,21 @@
             mySqlDataAdapter1.SelectCommand = null;
             mySqlDataAdapter1.UpdateBatchSize = 0;
             mySqlDataAdapter1.UpdateCommand = null;
+            // 
+            // materialSwitch3
+            // 
+            materialSwitch3.AutoSize = true;
+            materialSwitch3.Depth = 0;
+            materialSwitch3.Location = new Point(27, 259);
+            materialSwitch3.Margin = new Padding(0);
+            materialSwitch3.MouseLocation = new Point(-1, -1);
+            materialSwitch3.MouseState = MaterialSkin.MouseState.HOVER;
+            materialSwitch3.Name = "materialSwitch3";
+            materialSwitch3.Ripple = true;
+            materialSwitch3.Size = new Size(91, 37);
+            materialSwitch3.TabIndex = 20;
+            materialSwitch3.Text = "Aktif";
+            materialSwitch3.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
@@ -1902,6 +3098,9 @@
             tabPage4.ResumeLayout(false);
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
+            materialCard24.ResumeLayout(false);
+            materialCard24.PerformLayout();
+            materialCard25.ResumeLayout(false);
             materialCard20.ResumeLayout(false);
             materialCard20.PerformLayout();
             materialCard19.ResumeLayout(false);
@@ -1909,6 +3108,32 @@
             materialCard18.PerformLayout();
             materialCard17.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
+            tabPage1.ResumeLayout(false);
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
+            materialCard21.ResumeLayout(false);
+            materialCard21.PerformLayout();
+            materialCard23.ResumeLayout(false);
+            materialCard22.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView3).EndInit();
+            tabPage6.ResumeLayout(false);
+            materialCard27.ResumeLayout(false);
+            materialCard27.PerformLayout();
+            materialCard30.ResumeLayout(false);
+            materialCard29.ResumeLayout(false);
+            materialCard26.ResumeLayout(false);
+            materialCard26.PerformLayout();
+            materialCard28.ResumeLayout(false);
+            materialCard28.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView5).EndInit();
+            tabPage5.ResumeLayout(false);
+            tabPage5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView4).EndInit();
+            tabPage7.ResumeLayout(false);
+            materialCard32.ResumeLayout(false);
+            materialCard32.PerformLayout();
+            materialCard31.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView6).EndInit();
             ResumeLayout(false);
         }
 
@@ -2006,5 +3231,62 @@
         private DataGridView dataGridView2;
         private MaterialSkin.Controls.MaterialComboBox materialComboBox4;
         private MaterialSkin.Controls.MaterialButton materialButton12;
+        private MaterialSkin.Controls.MaterialButton materialButton10;
+        private TabPage tabPage1;
+        private Panel panel4;
+        private MaterialSkin.Controls.MaterialButton materialButton13;
+        private MaterialSkin.Controls.MaterialButton materialButton11;
+        private MaterialSkin.Controls.MaterialCard materialCard21;
+        private MaterialSkin.Controls.MaterialCard materialCard22;
+        private DataGridView dataGridView3;
+        private MaterialSkin.Controls.MaterialCard materialCard23;
+        private MaterialSkin.Controls.MaterialComboBox materialComboBox6;
+        private MaterialSkin.Controls.MaterialComboBox materialComboBox7;
+        public MaterialSkin.Controls.MaterialMaskedTextBox materialMaskedTextBox4;
+        private MaterialSkin.Controls.MaterialComboBox materialComboBox2;
+        private MaterialSkin.Controls.MaterialCard materialCard24;
+        private MaterialSkin.Controls.MaterialLabel materialLabel9;
+        private MaterialSkin.Controls.MaterialCard materialCard25;
+        private MaterialSkin.Controls.MaterialButton materialButton15;
+        private MaterialSkin.Controls.MaterialButton materialButton16;
+        private MaterialSkin.Controls.MaterialTextBox materialTextBox13;
+        private MaterialSkin.Controls.MaterialButton materialButton17;
+        private MaterialSkin.Controls.MaterialLabel materialLabel10;
+        private MaterialSkin.Controls.MaterialButton materialButton18;
+        private MaterialSkin.Controls.MaterialTextBox materialTextBox15;
+        private MaterialSkin.Controls.MaterialTextBox materialTextBox16;
+        private TabPage tabPage5;
+        private MaterialSkin.Controls.MaterialButton materialButton14;
+        private DataGridView dataGridView4;
+        private TabPage tabPage6;
+        private DataGridView dataGridView5;
+        private MaterialSkin.Controls.MaterialCard materialCard26;
+        private MaterialSkin.Controls.MaterialLabel materialLabel11;
+        private MaterialSkin.Controls.MaterialTextBox materialTextBox17;
+        private MaterialSkin.Controls.MaterialButton materialButton20;
+        private MaterialSkin.Controls.MaterialButton materialButton21;
+        private MaterialSkin.Controls.MaterialCard materialCard28;
+        private MaterialSkin.Controls.MaterialComboBox materialComboBox8;
+        private MaterialSkin.Controls.MaterialButton materialButton22;
+        private MaterialSkin.Controls.MaterialButton materialButton19;
+        private MaterialSkin.Controls.MaterialSwitch materialSwitch1;
+        private MaterialSkin.Controls.MaterialCard materialCard27;
+        private MaterialSkin.Controls.MaterialCard materialCard30;
+        private MaterialSkin.Controls.MaterialTextBox materialTextBox19;
+        private MaterialSkin.Controls.MaterialTextBox materialTextBox18;
+        private MaterialSkin.Controls.MaterialLabel materialLabel12;
+        private MaterialSkin.Controls.MaterialCard materialCard29;
+        private MaterialSkin.Controls.MaterialComboBox materialComboBox5;
+        private MaterialSkin.Controls.MaterialButton materialButton25;
+        private TabPage tabPage7;
+        private MaterialSkin.Controls.MaterialButton materialButton23;
+        private DataGridView dataGridView6;
+        private MaterialSkin.Controls.MaterialCard materialCard32;
+        private MaterialSkin.Controls.MaterialLabel materialLabel13;
+        private MaterialSkin.Controls.MaterialCard materialCard31;
+        private MaterialSkin.Controls.MaterialTextBox materialTextBox20;
+        private MaterialSkin.Controls.MaterialTextBox materialTextBox21;
+        private MaterialSkin.Controls.MaterialSwitch materialSwitch2;
+        private MaterialSkin.Controls.MaterialSwitch materialSwitch3;
     }
 }

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
-using Pomelo.EntityFrameworkCore.MySql.Scaffolding.Internal;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace Öğrenci_İşleri_Otomasyonu.DataObjects;
 
@@ -182,11 +179,6 @@ public partial class OkulContext : DbContext
             entity.Property(e => e.UserId)
                 .HasColumnType("int(11)")
                 .HasColumnName("user_id");
-
-            entity.HasOne(d => d.User).WithMany(p => p.Discontinuities)
-                .HasForeignKey(d => d.UserId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("discontinuity_user_idx");
         });
 
         modelBuilder.Entity<ExamResult>(entity =>
@@ -208,7 +200,7 @@ public partial class OkulContext : DbContext
             entity.Property(e => e.LessonId)
                 .HasColumnType("int(11)")
                 .HasColumnName("lesson_id");
-            entity.Property(e => e.Point).HasColumnName("point");
+            entity.Property(e => e.Score).HasColumnName("score");
             entity.Property(e => e.UpdatedAt)
                 .HasColumnType("datetime")
                 .HasColumnName("updated_at");
@@ -221,7 +213,7 @@ public partial class OkulContext : DbContext
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("lesson_exam_idx");
 
-            entity.HasOne(d => d.User).WithMany(p => p.ExamResults)
+            entity.HasOne(d => d.User).WithMany(p => p.ExamResultUsers)
                 .HasForeignKey(d => d.UserId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("user_exam_idx");
@@ -319,16 +311,6 @@ public partial class OkulContext : DbContext
             entity.Property(e => e.UserId)
                 .HasColumnType("int(11)")
                 .HasColumnName("user_id");
-
-            entity.HasOne(d => d.Lesson).WithMany(p => p.Notes)
-                .HasForeignKey(d => d.LessonId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("note_lesson_idx");
-
-            entity.HasOne(d => d.User).WithMany(p => p.Notes)
-                .HasForeignKey(d => d.UserId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("note_user_idx");
         });
 
         modelBuilder.Entity<Notification>(entity =>

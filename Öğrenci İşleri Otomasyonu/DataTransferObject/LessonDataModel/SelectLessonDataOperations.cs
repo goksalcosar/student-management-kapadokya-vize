@@ -1,9 +1,5 @@
-﻿using Öğrenci_İşleri_Otomasyonu.DataObjects;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore;
+using Öğrenci_İşleri_Otomasyonu.DataObjects;
 
 namespace Öğrenci_İşleri_Otomasyonu.DataTransferObject.LessonDataModel
 {
@@ -29,6 +25,27 @@ namespace Öğrenci_İşleri_Otomasyonu.DataTransferObject.LessonDataModel
             return studentManagementContext.Lessons.FirstOrDefault(f => f.Name == name);
         }
 
+        public static Lesson GetFindByIdLesson(int lessonId, StudentManagementContext studentManagementContext)
+        {
+            return studentManagementContext.LessonTeachers
+                    .Include(lessonTeacher => lessonTeacher.Lesson)
+                    .Include(teacher => teacher.Teacher)
+                    .FirstOrDefault(lessonTeacher => lessonTeacher.Lesson.Id == lessonId)?.Lesson;
+        }
+
+        public static Lesson GetFindByIdNotLeftJoinLesson(int lessonId, StudentManagementContext studentManagementContext)
+        {
+            return studentManagementContext.Lessons.Find(lessonId);
+        }
+
+        public static LessonTeacher GetFindByIdLessonTeacher(int lessonId, StudentManagementContext studentManagementContext)
+        {
+            return studentManagementContext.LessonTeachers
+                   .Include(lessonTeacher => lessonTeacher.Lesson)
+                   .Include(lessonTeacher => lessonTeacher.Teacher)
+                   .FirstOrDefault(lessonTeacher => lessonTeacher.Lesson.Id == lessonId);
+        }
+
         public static List<object> getAllLessons()
         {
             var context = new MainContext().StudentManagementContext;
@@ -39,6 +56,7 @@ namespace Öğrenci_İşleri_Otomasyonu.DataTransferObject.LessonDataModel
                     from lt in lessonTeachers.DefaultIfEmpty()
                     select new
                     {
+                        Ders_Id = item.Id,
                         Ders_Adı = item.Name,
                         Ders_Tipi = item.Type,
                         İlgili_Öğretim_Görvlisi = lt.Teacher.Name + " " + lt.Teacher.Surname

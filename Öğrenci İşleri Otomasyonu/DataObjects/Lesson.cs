@@ -18,6 +18,4 @@ public partial class Lesson
     public virtual ICollection<ExamResult> ExamResults { get; set; } = new List<ExamResult>();
 
     public virtual ICollection<LessonTeacher> LessonTeachers { get; set; } = new List<LessonTeacher>();
-
-    public virtual ICollection<Note> Notes { get; set; } = new List<Note>();
 }

@@ -1,14 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Öğrenci_İşleri_Otomasyonu.DataObjects;
-using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
-using System.Xml.Linq;
+﻿using Öğrenci_İşleri_Otomasyonu.DataObjects;
 
 namespace Öğrenci_İşleri_Otomasyonu.DataTransferObject.UserDataModel
 {
